@@ -1,0 +1,54 @@
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2019-09-12 14:47:56 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.falconUI.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2019-09-12 14:47:56 INFO  SampleTestScript:49 - Opening browser: chrome
+2019-09-12 14:48:05 INFO  SampleTestScript:49 - Maximizing browser window
+2019-09-12 15:03:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2019-09-12 15:03:49 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2019-09-12 15:03:49 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2019-09-12 15:03:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2019-09-12 15:03:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2019-09-12 15:03:50 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2019-09-12 15:03:50 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.falconUI.testscript.SampleTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2019-09-12 15:03:50 INFO  SampleTestScript:49 - Opening browser: chrome
+2019-09-12 15:04:11 INFO  SampleTestScript:49 - Maximizing browser window
+2019-09-12 15:04:12 INFO  SampleTestScript:49 - entering text: Selenium
+2019-09-12 15:04:13 INFO  SampleTestScript:49 - pressing enter key
+2019-09-12 15:04:16 INFO  SampleTestScript:49 - waiting for 2 second
+2019-09-12 15:04:18 INFO  SampleTestScript:49 - verifying page title
+2019-09-12 15:04:18 INFO  VerificationManager:229 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2019-09-12 15:04:19 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
